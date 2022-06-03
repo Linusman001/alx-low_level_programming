@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** main - Prints a number and states if
+/** 
+ * main - Prints a number and states if
  * positive or negative or zero
  *
  * Return: Always 0
