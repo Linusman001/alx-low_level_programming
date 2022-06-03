@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** 
+/**
  * main - Prints a number and states if
  * positive or negative or zero
  *
