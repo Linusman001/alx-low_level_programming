@@ -6,14 +6,17 @@
  * Return: Always 0
  */
 int main(void)
-{ char alphabet;
+{
+	char alphabet;
 
-	while (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	{
-		putchar(alphabets);
+	alphabet = 'a'
 
-		putchar("\n");
-	}
+		while (alphabet <= 'z')
+		{
+			putchar(alphabet);
+			alphabet++;
 
+			putchar('\n')
+		}
 	return (0);
 }
