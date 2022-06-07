@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Prints alphabet
+ * print_alphabet - Prints alphabet
  *
  * Return: Nothing Void
  */
-int main(void)
+void print_alphabet(void)
 {
 	char letter;
 
