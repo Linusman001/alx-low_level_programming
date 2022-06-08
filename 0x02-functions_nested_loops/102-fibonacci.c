@@ -13,7 +13,7 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
-		sum + f + s;
+		sum = f + s;
 		printf("%lu", sum);
 
 		f = s;
