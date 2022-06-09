@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - function that checks for a digit
- * @c
+ * @c: the character to be checked
  * from 0 through 9
  * Return: 1 if c is a digit else 0
  */
