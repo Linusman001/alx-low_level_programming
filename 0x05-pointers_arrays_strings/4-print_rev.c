@@ -13,7 +13,7 @@ void print_rev(char *s)
 
 	for (; count >= 0; count--)
 	{
-		if (count == '0')
+		if (s[count] == '0')
 		{
 			break;
 		}
