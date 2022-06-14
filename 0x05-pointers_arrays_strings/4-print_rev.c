@@ -19,7 +19,7 @@ void print_rev(char *s)
 			break;
 		}
 		_putchar(s[count]);
-		_putchar('\n);
+		_putchar('\n');
 		count--;
 	}
 }
