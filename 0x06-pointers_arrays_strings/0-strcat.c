@@ -1,6 +1,7 @@
-#include ""main.h"
+#include "main.h"
 
-/** *_strcat - This function appends the src string to the dest string,
+/**
+ * *_strcat - This function appends the src string to the dest string,
  * overwriting the terminating null byte (\0)
  * at the end of dest, and then adds a terminating null byte
  * @dest: destination variable to be appended
