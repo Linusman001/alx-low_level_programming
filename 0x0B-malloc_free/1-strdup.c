@@ -15,11 +15,11 @@ char *_strdup(char *str)
 	static char *dup;
 	char *dup_offset;
 
-	str_size = _strlen(str);
-	dup = (char *)malloc(sizeof(char) * str_size + 1);
-
 	if (str == NULL)
 		return (NULL);
+
+	str_size = _strlen(str);
+	dup = (char *)malloc(sizeof(char) * str_size + 1);
 
 	if (dup == NULL)
 		return ((char *)NULL);
