@@ -26,9 +26,8 @@ int main(int argc, char *argv[])
 
 	operation = get_op_func(argv[2]);
 
-
+	if (operation == NULL)
 	{
-
 		printf("Error\n");
 		exit(99);
 	}
@@ -39,4 +38,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", operation(a, b));
 	return (0);
 }
-
